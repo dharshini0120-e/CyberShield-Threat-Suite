@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 280px;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f172a;
+      color: #ffffff;
+      margin: 0;
+    }
+    .header {
+      font-size: 16px;
+      font-weight: bold;
+      color: #38bdf8;
+      text-align: center;
+      margin-bottom: 12px;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 8px;
+    }
+    .url-box {
+      font-size: 11px;
+      color: #94a3b8;
+      word-break: break-all;
+      background: #1e293b;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      max-height: 40px;
+      overflow: hidden;
+    }
+    #status-card {
+      padding: 12px;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      background: #1e293b;
+      border: 1px solid #334155;
+    }
+    .score-text {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">🛡️ CYBERSHIELD</div>
+  <div id="url-display" class="url-box">Detecting active tab...</div>
+  
+  <div id="status-card">
+    <div id="status-text" style="color: #38bdf8;">🔄 SCANNING...</div>
+    <div id="score-text" class="score-text">Risk Score: --%</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

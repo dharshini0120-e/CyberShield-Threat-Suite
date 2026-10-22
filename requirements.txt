@@ -1,0 +1,10 @@
+Flask
+flask-cors
+requests
+gunicorn
+scikit-learn
+joblib
+numpy
+pillow
+opencv-python
+python-whois
